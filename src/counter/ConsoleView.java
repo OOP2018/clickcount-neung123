@@ -19,9 +19,10 @@ public class ConsoleView implements java.util.Observer {
 	}
 
 	@Override
-	public void update(Observable subject,Object info){
-		if(info == null) System.out.println(info);
+	public void update(Observable o, Object arg) {
+		if(arg != null) System.out.println(arg);
 
 		System.out.println("Count: " + counter.getCount());
 	}
+
 }

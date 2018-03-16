@@ -1,5 +1,5 @@
-import counter.ConsoleView;
-import counter.Counter;
+package counter;
+
 
 import java.util.Scanner;
 

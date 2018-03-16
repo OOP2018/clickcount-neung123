@@ -25,7 +25,4 @@ public class Counter extends Observable {
 		return count;
 	}
 
-	public void addObserver(ConsoleView view) {
-	}
-
 }
